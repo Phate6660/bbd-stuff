@@ -1,0 +1,54 @@
+/* underline roles in memberlist & DMs */
+.members-1998pB .membersGroup-v9BXpm, .private-channels header {
+ text-align: center;
+ overflow: visible;
+ margin-bottom: 10px;
+}
+
+.members-1998pB .membersGroup-v9BXpm::after, .private-channels header::after {
+ content: "";
+ display: block;
+ height: 1px;
+ width: 100%;
+ border-bottom: 2px solid white;
+}
+.private-channels header::after {padding-bottom: 10px;}
+
+/* underline labels in channellist */
+.channels-Ie2l6A .wrapperDefault-10Jfvz, .channels-Ie2l6A .wrapperHovered-28fu1D {
+ padding-top: 28px;
+ padding-right: 8px;
+ padding-left: 18px;
+ padding: 0 0 8px 0;
+ height: auto;
+ margin: 28px 8px 4px 18px;
+ border-bottom: 2px solid white;
+}
+.channels-Ie2l6A .nameDefault-2DI02H, .channels-Ie2l6A .nameHovered-1gxhWH {text-align: center;}
+
+/* changes the color of the context menu and makes it a more appropriate size */
+.wrapper-2aW0bm {
+    transform: scale(0.6)
+}
+/* get rid of the stupid emojis from the context popup */
+.emojiButton-jE9tXC.button-1ZiXG9, .emojiSeparator-10VgEJ.separator-42rNt0 {
+    display: none;
+}
+/* removes the stupid background on messages over hover */
+.mouse-mode .message-2qnXI6:hover {
+    background-color: transparent;
+}
+/* makes the unread thing in the center instead of the right, also rounds it */
+.unreadPill-2HyYtt {
+    left: 45%;
+    right: 50%;
+    border-radius: 10px;
+}
+/* gets rid of the pointy tip on the unread bar */
+.unreadPillCap-3_K2q2 {
+    display: none;
+}
+
+.da-title {
+    display: none;
+}

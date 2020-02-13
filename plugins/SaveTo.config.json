@@ -1,0 +1,17 @@
+{
+    "settings": {
+        "fileNameType": "random",
+        "sortMode": "a-z",
+        "displayUpdateNotes": true,
+        "dropdownOnTop": true
+    },
+    "data": {
+        "folders": [
+            {
+                "path": "/home/valley/downloads/discord",
+                "name": "discord",
+                "position": 0
+            }
+        ]
+    }
+}
