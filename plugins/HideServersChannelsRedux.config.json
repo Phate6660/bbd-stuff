@@ -5,6 +5,6 @@
     },
     "settings": {
         "keybinds": true,
-        "animations": true
+        "animations": false
     }
 }
