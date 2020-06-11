@@ -55,7 +55,7 @@
 }
 
 /* scrollable code blocks */
-.scrollbarGhostHairline-1mSOM1, .scrollbar-3dvm_9, .da-scrollbarGhostHairline, .da-scrollbar {
+.da-scrollbarGhostHairline, .da-scrollbar {
     overflow: scroll !important;
     white-space: pre !important;
 }
